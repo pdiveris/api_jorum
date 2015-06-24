@@ -510,6 +510,9 @@ class Bitstream extends JorumApi
     }
   }
 
+ /**
+  * Return a suitable preview url based on the content
+  */
   public function getPreviewUrl() {
     $url = '';
     switch ($this->getBundleName()) {
@@ -540,6 +543,7 @@ class Bitstream extends JorumApi
   }
 
   /**
+   * Is it external?
    * @return bool
    */
   public function isExternal() {
