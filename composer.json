@@ -17,7 +17,9 @@
         "php": ">=5.5.9",
         "illuminate/contracts": "5.0.*",
         "illuminate/support": "5.0.*",
-        "nesbot/carbon": "~1.19"
+        "nesbot/carbon": "~1.19",
+        "jyggen/curl": "*",
+        "symfony/http-foundation": "2.7.*"
     },
     "require-dev": {
         "phpunit/phpunit": "4.7.*"
