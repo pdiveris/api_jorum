@@ -6,8 +6,7 @@
  *
  * Various Helpers
  *
- * @package      HT_Api
- * @subpackage   
+ * @package      Jorum_api
  * @category     API
  * @author       Petros Diveris <petros.diveris@jisc.ac.uk>
  *
@@ -24,6 +23,7 @@ class Helpers
 {
 
   /**
+   * Custom XML Encoder
    * @param $var
    * @param bool $indent
    * @param int $i

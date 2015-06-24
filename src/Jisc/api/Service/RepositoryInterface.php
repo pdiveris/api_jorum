@@ -1,8 +1,7 @@
 <?php
 /**
  * Enforce at least the following three methods
- * @package      HT_Api
- * @subpackage   Service
+ * @package      Jorum_Api
  * @category     API
  * @version      1.0
  * @author       Petros Diveris <petros.diveris@jisc.ac.uk>

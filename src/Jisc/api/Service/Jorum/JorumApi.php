@@ -4,7 +4,6 @@
  * Jorum API Base Class - it constructs the URLs and fires requests to the JorumAPI
  *
  * @package      Jorum_Api
- * @subpackage   Service
  * @category     API
  * @author       Petros Diveris <petros.diveris@jisc.ac.uk>
  * @version      10.1

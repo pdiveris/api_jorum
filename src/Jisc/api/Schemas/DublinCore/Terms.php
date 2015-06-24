@@ -6,9 +6,11 @@
  *
  * Dublin Core Terms we expose and perhaps transform in the API
  *
- * @package Api
+ * @package Jorum_Api
  * @category     API
  * @author       Petros Diveris <petros.diveris@jisc.ac.uk>
+ * @version 1.0
+ * @copyright Jisc, 2015
  *
  * Will eventually become of the classification term translation engine
  *
@@ -18,10 +20,6 @@ namespace Jisc\api\Schemas\DublinCore;
 /**
  * Class Terms
  *
- * @version 1.0
- * @specification 1.1
- * @author Petros Diveris
- * @copyright Jisc, 2015
  */
 class Terms
 {

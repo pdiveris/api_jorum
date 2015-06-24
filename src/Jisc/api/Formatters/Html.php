@@ -8,8 +8,7 @@
  * The only purpose of this is to assist in the understanding the API
  * by providing a human readable output
  *
- * @package      API
- * @subpackage   Formatters
+ * @package      Jorum_Api
  * @category     API
  * @author       Petros Diveris <petros.diveris@jisc.ac.uk>
  */

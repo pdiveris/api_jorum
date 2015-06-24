@@ -73,6 +73,8 @@ class Helper {
   }
 
   /**
+   * Change a file extension to another
+   *
    * @param $fileName
    * @param string $extension
    * @return string

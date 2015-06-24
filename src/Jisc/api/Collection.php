@@ -6,8 +6,7 @@
  *
  * A Collection of stuff that can be JSON serialised and can be iterated
  *
- * @package      HT_Api
- * @subpackage   HT
+ * @package      Jorum_Api
  * @category     APIs
  * @author       Petros Diveris <petros.diveris@jisc.ac.uk>
  * @version      1.0

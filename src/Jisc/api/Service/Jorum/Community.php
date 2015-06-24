@@ -7,7 +7,6 @@
  * Top level grouping of collections and ultimately items
  *
  * @package      Jorum_Api
- * @subpackage   Service
  * @category     API
  * @author       Petros Diveris <petros.diveris@jisc.ac.uk>
  * @version      1.0.0

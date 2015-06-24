@@ -7,7 +7,6 @@
  * Holds a list of Items
  *
  * @package      HT_Api
- * @subpackage   Service
  * @category     API
  * @version      0.9.0
  * @author       Petros Diveris <petros.diveris@jisc.ac.uk>

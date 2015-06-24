@@ -8,7 +8,6 @@
  * Will be deprcated / merged to DataColleciton
  *
  * @package      Jorum_Api
- * @subpackage   Service
  * @category     API
  * @author       Petros Diveris <petros.diveris@manchester.ac.uk>
  */

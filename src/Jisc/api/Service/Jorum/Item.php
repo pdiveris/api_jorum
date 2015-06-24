@@ -7,7 +7,6 @@
  * Item held in Jorum
  *
  * @package      Jorum_Api
- * @subpackage   Service
  * @category     API
  * @author       Petros Diveris <petros.diveris@jisc.ac.uk>
  * @version      1.0.0

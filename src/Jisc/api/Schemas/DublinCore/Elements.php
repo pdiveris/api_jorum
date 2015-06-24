@@ -6,7 +6,7 @@
  *
  * Dublin Core Elements
  *
- * @package Api
+ * @package Jorum_Api
  * @category     API
  * @author       Petros Diveris <petros.diveris@jisc.ac.uk>
  *
@@ -21,7 +21,6 @@ namespace Jisc\api\Schemas\DublinCore;
  *
  * @version 1.0
  * @specification 1.1
- * @author Petros Diveris
  * @copyright Jisc, 2015
  *
  * <xs:element name="any" type="SimpleLiteral" abstract="true"/>
