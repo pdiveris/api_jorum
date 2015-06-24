@@ -1,0 +1,36 @@
+{
+    "name": "jisc/jorum_api",
+    "description": "Jisc Jorum REST API PHP Wrapper",
+    "license": "MIT",
+    "homepage": "http://jorum.api.bentleysoft.com/docs",
+    "support": {
+        "issues": "https://bitbucket.org/pdiveris/api_jorum/issues",
+        "source": "https://bitbucket.org/pdiveris/api_jorum"
+    },
+    "authors": [
+        {
+            "name": "Petros Diveris",
+            "email": "petros.diveris@jisc.ac.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/contracts": "5.0.*",
+        "illuminate/support": "5.0.*",
+        "nesbot/carbon": "~1.19"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*"
+    },    
+    "autoload": {
+        "psr-0": {
+            "Jisc": "src/"
+        }
+    },
+    "suggest": {
+        "illuminate/database": "Required to use the database cache driver (5.2.*).",
+        "illuminate/filesystem": "Required to use the file cache driver (5.2.*).",
+        "illuminate/redis": "Required to use the redis cache driver (5.2.*)."
+    },
+    "minimum-stability": "dev"
+}
