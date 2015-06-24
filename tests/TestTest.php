@@ -64,11 +64,17 @@ class TestTest extends PHPUnit_Framework_TestCase
     * and check whether we get back what we should
     */
     public function testJiscHTItem() {
-		$item = new \Jisc\api\Service\Hairdressing\Item(['nid'=>22, 'title'=>'The Graduated Bob: Guide', 'type'=>'page' ]);
-		$this->assertEquals($item->getId(),22, 'Item created and returns the correct ID');
-		$this->assertEquals($item->getHandle(),'node/22', 'Item  returns the correct handle');
-		$this->assertEquals($item->getType(), 'page', 'Item type returned correctly');
-		$this->assertEquals($item->getName(), 'The Graduated Bob: Guide', 'We got a Graduated Bob');
+        $data = array(
+            'id'=>'10949/19338',
+            'name'=>'Good academic practice for final year projects and dissertations',
+            'handle'=>'10949/19338',
+        );
+
+        $item = new \Jisc\api\Service\Jorum\Item($data);
+
+		$this->assertEquals($item->getId(), '10949/19338', 'Item created and returns the correct ID');
+		$this->assertEquals($item->getHandle(),'10949/19338', 'Item  returns the correct handle');
+		$this->assertEquals($item->getName(), 'Good academic practice for final year projects and dissertations');
     }
 }
 ?>
